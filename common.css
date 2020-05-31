@@ -1,0 +1,42 @@
+@charset 'UTF-8';
+/**********
+ common
+**********/
+.clearfix:after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+a:hover {
+  opacity: 0.83;
+  -web-kit-opacity: 0.83;
+}
+.sp-only {
+  display: none !important;
+}
+
+  /********** Base **********/
+  body {
+    font-size: 14px;
+    color: #333;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+  }
+  #all {
+    position: relative;
+    width: 100%;
+  }
+  #wrapper,
+  #header,
+  #contents,
+  #footer {
+    width: 100%;
+  }
+
+  h1 {
+  	color: red;
+  }
